@@ -16,7 +16,7 @@ import Cart from './pages/ShopCart';
 import Profile from './pages/Profile';
 import CartDetails from './pages/CartDetails';
 
-import { Provider } from 'react-redux';
+// import { Provider } from 'react-redux';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
