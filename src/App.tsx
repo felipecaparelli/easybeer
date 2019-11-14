@@ -10,11 +10,13 @@ import {
   IonTabs
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { home, flash, cart, person } from 'ionicons/icons';
+import { home, cart, person } from 'ionicons/icons';
 import Products from './pages/Products';
 import Cart from './pages/ShopCart';
 import Profile from './pages/Profile';
 import CartDetails from './pages/CartDetails';
+
+import { Provider } from 'react-redux';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
